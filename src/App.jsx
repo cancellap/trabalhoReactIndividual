@@ -1,12 +1,19 @@
-import { useState } from 'react'
-import './App.css'
+import "./App.css";
+import Footer from "./components/Footer";
+import Header from "./components/Header";
+import Input from "./components/Input";
+import { ImcProvider } from "./context/imc";
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
-    <div></div>
-  )
+    <div>
+      <Header />
+      <ImcProvider>
+        <Input />
+      </ImcProvider>
+      <Footer />
+    </div>
+  );
 }
 
-export default App
+export default App;

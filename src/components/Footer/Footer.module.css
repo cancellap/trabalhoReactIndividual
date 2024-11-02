@@ -1,0 +1,15 @@
+.footer {
+  position: fixed;
+  right: 0;
+  left: 0;
+  padding: 40px auto;
+  background-color: #222831;
+  height: 50px;
+  border-radius: 15px 15px 0 0;
+  bottom: 0;
+}
+p {
+  padding-top: 13px;
+  text-align: center;
+  color: #eeee;
+}
